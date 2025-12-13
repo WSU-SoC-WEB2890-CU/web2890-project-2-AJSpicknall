@@ -1,225 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Menswear & Missionary Apparel | 2x2 Gear</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Missionary suits, shirts, and accessories with tailoring, fit guidance, and breathable fabrics.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-h+y3Zj8L1/1PPR8VXIt+k9Vc03S8ZQ1Sgrt2+VfW8pYYdpqPjKc0sTf7zA5TNKvp8QI70oIZFv1F2iIrGqik0w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
-<body>
-  <header class="py-3 bg-white shadow-sm sticky-top">
-    <nav class="navbar navbar-expand-lg container">
-      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-uppercase" href="index.html">
-        <img src="./images/2by2-logo.png" alt="2x2 Gear Outfitters logo" class="brand-logo">
-        <span class="visually-hidden">2x2 Gear Outfitters</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
-          <li class="nav-item"><a class="nav-link active" href="apparel.html">Menswear</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <title>Menswear & Missionary Apparel | 2x2 Gear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Shop missionary suits, shirts, and accessories with pricing, ratings, and fast shipping. Online store for breathable fabrics and durable fits."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-h+y3Zj8L1/1PPR8VXIt+k9Vc03S8ZQ1Sgrt2+VfW8pYYdpqPjKc0sTf7zA5TNKvp8QI70oIZFv1F2iIrGqik0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
+  <body>
+    <header class="py-3 bg-white shadow-sm sticky-top">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-uppercase" href="index.html">
+          <img src="./images/2by2-logo.png" alt="2x2 Gear Outfitters logo" class="brand-logo" />
+          <span class="visually-hidden">2x2 Gear Outfitters</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
+            <li class="nav-item"><a class="nav-link active" href="apparel.html">Menswear</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-  <main>
-    <section class="hero py-5 py-lg-6">
-      <div class="container">
-        <div class="row align-items-center g-4">
-          <div class="col-lg-6">
-            <div class="pill mb-3"><i class="fa-solid fa-shirt"></i> Missionary + menswear specialists</div>
-            <h1 class="display-4 fw-bold mb-3">Tailored for service. Built for everyday wear.</h1>
-            <p class="lead text-light opacity-75 mb-4">Stretch suits, breathable shirts, and accessories that stay sharp after long days. Tailoring available in-store for perfect fit.</p>
-            <div class="d-flex flex-wrap gap-3">
-              <a class="btn btn-primary btn-lg" href="#suits">View suits</a>
-              <a class="btn btn-outline-light btn-lg" href="#shirts">Browse shirts</a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card card-hover overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80" alt="Two suits on display" class="w-100">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-5" id="suits">
-      <div class="container">
-        <div class="d-flex justify-content-between flex-wrap align-items-center mb-3">
-          <div>
-            <div class="divider mb-2"></div>
-            <h2 class="section-title mb-1">Suiting essentials</h2>
-            <p class="text-muted mb-0">Stretch, durability, and breathable linings in classic colors.</p>
-          </div>
-          <a class="btn btn-outline-dark" href="contact.html">Schedule a fitting</a>
-        </div>
-        <div class="grid grid-3">
-          <article class="card card-hover p-3">
-            <img src="https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?auto=format&fit=crop&w=900&q=80" class="w-100 rounded mb-3" alt="Charcoal suit with tie">
-            <h5 class="fw-bold">Charcoal Performance</h5>
-            <p class="text-muted small mb-2">4-way stretch, wrinkle-resistant, breathable mesh lining.</p>
-            <span class="badge badge-soft">Best seller</span>
-          </article>
-          <article class="card card-hover p-3">
-            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" class="w-100 rounded mb-3" alt="Navy suit look">
-            <h5 class="fw-bold">Navy Foundation</h5>
-            <p class="text-muted small mb-2">Classic silhouette with modern stretch for long days.</p>
-            <span class="badge badge-soft">Year-round</span>
-          </article>
-          <article class="card card-hover p-3">
-            <img src="https://images.unsplash.com/photo-1529946825183-536c4082edd9?auto=format&fit=crop&w=900&q=80" class="w-100 rounded mb-3" alt="Light gray suit">
-            <h5 class="fw-bold">Lightweight Slate</h5>
-            <p class="text-muted small mb-2">Ideal for warmer climates with vented lining.</p>
-            <span class="badge badge-soft">Warm climate</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-5 bg-sand" id="shirts">
-      <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-5">
-            <div class="divider mb-2"></div>
-            <h2 class="section-title mb-3">Wrinkle-resistant shirts</h2>
-            <p class="text-muted">Moisture-wicking, easy-care fabrics in missionary-approved cuts. Extended sizes available.</p>
-            <div class="d-flex flex-wrap gap-2 my-2">
-              <span class="badge badge-soft">No-iron</span>
-              <span class="badge badge-soft">Stretch</span>
-              <span class="badge badge-soft">Breathable</span>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="grid grid-3">
-              <article class="card card-hover p-3">
-                <h6 class="fw-bold">Classic White</h6>
-                <p class="text-muted small mb-1">Non-iron, moisture control, tapered or relaxed fits.</p>
-              </article>
-              <article class="card card-hover p-3">
-                <h6 class="fw-bold">Cool Touch</h6>
-                <p class="text-muted small mb-1">Lightweight fabric for humidity with odor control.</p>
-              </article>
-              <article class="card card-hover p-3">
-                <h6 class="fw-bold">Stretch Oxford</h6>
-                <p class="text-muted small mb-1">Structured collar, natural stretch, easy movement.</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-5" id="fits">
-      <div class="container">
-        <div class="text-center mb-4">
-          <div class="divider mb-2 mx-auto"></div>
-          <h2 class="section-title">Fit guide & tailoring</h2>
-          <p class="text-muted">We fit for confidence and mobility. Alterations available with quick turnarounds.</p>
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-4">
-            <div class="card card-hover p-4 h-100">
-              <h5 class="fw-bold mb-2">Silhouettes</h5>
-              <p class="text-muted">Choose from classic, tailored, or athletic cuts. We pin and tailor on-site.</p>
-              <ul class="list-unstyled text-muted small">
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Sleeve & pant hemming</li>
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Waist adjustments</li>
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Jacket tapering</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card card-hover p-4 h-100">
-              <h5 class="fw-bold mb-2">Climate layers</h5>
-              <p class="text-muted">Layer sets for humid, cold, or dry climates—without bulk under a blazer.</p>
-              <ul class="list-unstyled text-muted small">
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Merino base layers</li>
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Insulated vests</li>
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Rain shells</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card card-hover p-4 h-100">
-              <h5 class="fw-bold mb-2">Accessories</h5>
-              <p class="text-muted">Belts, ties, and socks matched to your suits and mission expectations.</p>
-              <ul class="list-unstyled text-muted small">
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Durable belts</li>
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Breathable socks</li>
-                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Mission-approved ties</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-5 bg-gradient-navy text-white" id="timeline">
-      <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-6">
-            <h3 class="section-title mb-3">Your outfitting timeline</h3>
-            <ol class="text-white-50">
-              <li class="mb-2"><strong>Step 1:</strong> Book a fitting (virtual or in-store)</li>
-              <li class="mb-2"><strong>Step 2:</strong> Choose kits and fits by mission climate</li>
-              <li class="mb-2"><strong>Step 3:</strong> Tailoring and alterations (72 hr avg.)</li>
-              <li class="mb-2"><strong>Step 4:</strong> Pickup with care instructions + packing checklist</li>
-            </ol>
-          </div>
-          <div class="col-lg-6">
-            <div class="card p-4 bg-white text-dark">
-              <h5 class="fw-bold mb-2">Packing highlights</h5>
-              <div class="grid grid-2">
-                <div>
-                  <p class="small text-muted mb-1">Suits</p>
-                  <p class="mb-0">2–3 stretch suits</p>
-                </div>
-                <div>
-                  <p class="small text-muted mb-1">Shirts</p>
-                  <p class="mb-0">8–10 wrinkle-resistant</p>
-                </div>
-                <div>
-                  <p class="small text-muted mb-1">Shoes</p>
-                  <p class="mb-0">2–3 pairs rotated</p>
-                </div>
-                <div>
-                  <p class="small text-muted mb-1">Layers</p>
-                  <p class="mb-0">Shell + thermal + sweater</p>
-                </div>
+    <main>
+      <section class="hero py-5 py-lg-6">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+              <div class="pill mb-3"><i class="fa-solid fa-shirt"></i> Missionary + menswear specialists</div>
+              <h1 class="display-4 fw-bold mb-3">Mission-ready looks, ready to ship.</h1>
+              <p class="lead text-light opacity-75 mb-4">
+                Shop suits, shirts, and accessories with transparent pricing, verified reviews, and fast delivery. Built
+                to stay sharp through long days.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-primary btn-lg" href="#suits">Shop suits</a>
+                <a class="btn btn-outline-light btn-lg" href="#shirts">Browse shirts</a>
               </div>
-              <a class="btn btn-dark mt-3" href="contact.html">Plan my packing</a>
+              <div class="d-flex gap-3 flex-wrap mt-3 text-light small opacity-75">
+                <span><i class="fa-solid fa-truck-fast me-1"></i>2-day shipping</span>
+                <span><i class="fa-solid fa-repeat me-1"></i>Free exchanges</span>
+                <span><i class="fa-solid fa-shield-heart me-1"></i>30-day returns</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card card-hover overflow-hidden">
+                <img
+                  src="./images/apparel/suits/suits-7.jpg"
+                  alt="Missionary suit set displayed on rack"
+                  class="w-100"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="footer py-4">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
-      <div>
-        <h6 class="fw-bold text-white mb-1">2x2 Gear Outfitters</h6>
-        <p class="mb-0 small">Missionary and menswear outfitting. Utah-based. Family owned.</p>
-      </div>
-      <div class="d-flex gap-3">
-        <a href="gear.html" class="text-decoration-none">Gear</a>
-        <a href="apparel.html" class="text-decoration-none">Menswear</a>
-        <a href="contact.html" class="text-decoration-none">Contact</a>
-      </div>
-      <div class="small">Tailoring support available with appointments.</div>
-    </div>
-  </footer>
+      <section class="py-5" id="suits">
+        <div class="container">
+          <div class="d-flex justify-content-between flex-wrap align-items-center mb-3">
+            <div>
+              <div class="divider mb-2"></div>
+              <h2 class="section-title mb-1">Suiting essentials</h2>
+              <p class="text-muted mb-0">Stretch, durability, breathable linings, and missionary-approved colors.</p>
+            </div>
+            <div class="text-end">
+              <p class="small text-muted mb-1">Free hemming credit on every suit</p>
+              <span class="badge badge-soft">Ships in 2 business days</span>
+            </div>
+          </div>
+          <div class="grid grid-3">
+            <article class="card card-hover p-3">
+              <img
+                src="./images/apparel/suits/suits-1.jpg"
+                class="w-100 rounded mb-3"
+                alt="Charcoal suit on mannequin"
+              />
+              <h5 class="fw-bold mb-1">Ocean Blue Performance</h5>
+              <p class="text-muted small mb-1">Brand: Pioneer Stretch | 4-way stretch, breathable mesh lining.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$289</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge badge-soft">Best seller</span>
+                <a class="btn btn-primary btn-sm" href="#">Buy now</a>
+              </div>
+            </article>
+            <article class="card card-hover p-3">
+              <img src="./images/apparel/suits/suits-5.png" class="w-100 rounded mb-3" alt="Navy suit display" />
+              <h5 class="fw-bold mb-1">Red Foundation</h5>
+              <p class="text-muted small mb-1">Brand: Summit Cloth | Modern stretch, wrinkle resistant.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$279</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.7</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge badge-soft">Year-round</span>
+                <a class="btn btn-primary btn-sm" href="#">Buy now</a>
+              </div>
+            </article>
+            <article class="card card-hover p-3">
+              <img src="./images/apparel/suits/suits-11.png" class="w-100 rounded mb-3" alt="Light gray suit hanging" />
+              <h5 class="fw-bold mb-1">Lightweight Slate</h5>
+              <p class="text-muted small mb-1">Brand: AirFlex | Vented lining, ideal for warm missions.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$265</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.6</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge badge-soft">Warm climate</span>
+                <a class="btn btn-primary btn-sm" href="#">Buy now</a>
+              </div>
+            </article>
+            <article class="card card-hover p-3">
+              <img
+                src="./images/apparel/suits/suits-13.png"
+                class="w-100 rounded mb-3"
+                alt="Black suit displayed in store"
+              />
+              <h5 class="fw-bold mb-1">Navy Mission Classic</h5>
+              <p class="text-muted small mb-1">Brand: Heritage | Lined for durability, easy-care fabric.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$299</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.9</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge badge-soft">New arrival</span>
+                <a class="btn btn-primary btn-sm" href="#">Buy now</a>
+              </div>
+            </article>
+            <article class="card card-hover p-3">
+              <img src="./images/apparel/suits/suits-9.png" class="w-100 rounded mb-3" alt="Medium gray suit" />
+              <h5 class="fw-bold mb-1">Travel Day Kit</h5>
+              <p class="text-muted small mb-1">Brand: MoveLight | Stretch shoulders, hidden passport pocket.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$285</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.5</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge badge-soft">Wrinkle free</span>
+                <a class="btn btn-primary btn-sm" href="#">Buy now</a>
+              </div>
+            </article>
+            <article class="card card-hover p-3">
+              <img src="./images/apparel/suits/suits-8.png" class="w-100 rounded mb-3" alt="Earth tone suit on rack" />
+              <h5 class="fw-bold mb-1">Desert Tan Set</h5>
+              <p class="text-muted small mb-1">Brand: Ventana | Breathable weave for dry climates.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$269</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.6</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="badge badge-soft">Dry climate</span>
+                <a class="btn btn-primary btn-sm" href="#">Buy now</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+      <section class="py-5 bg-sand" id="shirts">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <div class="divider mb-2"></div>
+              <h2 class="section-title mb-3">Wrinkle-resistant shirts</h2>
+              <p class="text-muted">
+                Moisture-wicking, easy-care fabrics in missionary-approved cuts. Extended sizes available with free
+                exchanges.
+              </p>
+              <div class="d-flex flex-wrap gap-2 my-2">
+                <span class="badge badge-soft">No-iron</span>
+                <span class="badge badge-soft">Stretch</span>
+                <span class="badge badge-soft">Breathable</span>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="grid grid-3">
+                <article class="card card-hover p-3">
+                  <img
+                    src="./images/apparel/shirts/shirts-1.png"
+                    class="w-100 rounded mb-3"
+                    alt="Stack of white shirts"
+                  />
+                  <h6 class="fw-bold mb-1">Classic White 3-Pack</h6>
+                  <p class="text-muted small mb-1">Brand: Mission Prep | Non-iron, moisture control.</p>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="fw-bold">$88</span>
+                    <span class="text-warning"><i class="fa-solid fa-star"></i> 4.9</span>
+                  </div>
+                  <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+                </article>
+                <article class="card card-hover p-3">
+                  <img src="./images/apparel/shirts/shirts-3.png" class="w-100 rounded mb-3" alt="Blue dress shirt" />
+                  <h6 class="fw-bold mb-1">Cool Cream</h6>
+                  <p class="text-muted small mb-1">Brand: AirWeave | Lightweight for humidity, odor control.</p>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="fw-bold">$36</span>
+                    <span class="text-warning"><i class="fa-solid fa-star"></i> 4.7</span>
+                  </div>
+                  <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+                </article>
+                <article class="card card-hover p-3">
+                  <img
+                    src="./images/apparel/shirts/shirts-4.png"
+                    class="w-100 rounded mb-3"
+                    alt="White shirt on hanger"
+                  />
+                  <h6 class="fw-bold mb-1">Stretch Oxford</h6>
+                  <p class="text-muted small mb-1">Brand: Oxfordline | Structured collar, natural stretch.</p>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="fw-bold">$42</span>
+                    <span class="text-warning"><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                  <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+                </article>
+                <article class="card card-hover p-3">
+                  <img
+                    src="./images/apparel/shirts/shirts-5.png"
+                    class="w-100 rounded mb-3"
+                    alt="Folded dress shirts"
+                  />
+                  <h6 class="fw-bold mb-1">Ultra Breathable</h6>
+                  <p class="text-muted small mb-1">Brand: Mesa Air | Mesh panels at back yoke, quick-dry.</p>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="fw-bold">$39</span>
+                    <span class="text-warning"><i class="fa-solid fa-star"></i> 4.6</span>
+                  </div>
+                  <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+                </article>
+                <article class="card card-hover p-3">
+                  <img src="./images/apparel/shirts/shirts-6.png" class="w-100 rounded mb-3" alt="Dress shirt folded" />
+                  <h6 class="fw-bold mb-1">No-Iron Stretch</h6>
+                  <p class="text-muted small mb-1">Brand: Eastview | Easy care fabric with movement.</p>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="fw-bold">$40</span>
+                    <span class="text-warning"><i class="fa-solid fa-star"></i> 4.5</span>
+                  </div>
+                  <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+                </article>
+                <article class="card card-hover p-3">
+                  <img
+                    src="./images/apparel/shirts/shirts-7.png"
+                    class="w-100 rounded mb-3"
+                    alt="Formal shirt detail"
+                  />
+                  <h6 class="fw-bold mb-1">Easy Care Classic</h6>
+                  <p class="text-muted small mb-1">Brand: Northline | Reinforced seams, stays crisp.</p>
+                  <div class="d-flex align-items-center gap-2 mb-2">
+                    <span class="fw-bold">$34</span>
+                    <span class="text-warning"><i class="fa-solid fa-star"></i> 4.4</span>
+                  </div>
+                  <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="ties">
+        <div class="container">
+          <div class="text-center mb-4">
+            <div class="divider mb-2 mx-auto"></div>
+            <h2 class="section-title">Mission-ready ties & accessories</h2>
+            <p class="text-muted">
+              Pairs perfectly with every suit above. Quick-dry, colorfast, and mission-approved patterns.
+            </p>
+          </div>
+          <div class="grid grid-3">
+            <article class="card card-hover p-3">
+              <img src="./images/apparel/ties/tie-1.png" class="w-100 rounded mb-3" alt="Patterned tie" />
+              <h6 class="fw-bold mb-1">Heritage Stripe</h6>
+              <p class="text-muted small mb-1">Brand: Meridian | Colorfast, snag-resistant weave.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$24</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.7</span>
+              </div>
+              <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+            </article>
+            <article class="card card-hover p-3">
+              <img src="./images/apparel/ties/tie-2.png" class="w-100 rounded mb-3" alt="Gray tie on rack" />
+              <h6 class="fw-bold mb-1">Minimal Slate</h6>
+              <p class="text-muted small mb-1">Brand: Quiet Thread | Matte finish, anti-crease.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$22</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.6</span>
+              </div>
+              <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+            </article>
+            <article class="card card-hover p-3">
+              <img src="./images/gear/belts/belt-2.png" class="w-100 rounded mb-3" alt="Black leather belt" />
+              <h6 class="fw-bold mb-1">Full-Grain Belt</h6>
+              <p class="text-muted small mb-1">Brand: Daybreak | Reinforced buckle, mission approved.</p>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="fw-bold">$32</span>
+                <span class="text-warning"><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+              <a class="btn btn-outline-dark w-100" href="#">Add to cart</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-gradient-navy text-white" id="shipping">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <h3 class="section-title mb-3">Ready for the field, delivered fast.</h3>
+              <ol class="text-white-50">
+                <li class="mb-2"><strong>Step 1:</strong> Pick your sizes and add to cart.</li>
+                <li class="mb-2"><strong>Step 2:</strong> Choose free pickup or 2-day shipping.</li>
+                <li class="mb-2"><strong>Step 3:</strong> Get fit tips in your confirmation email.</li>
+                <li class="mb-2"><strong>Step 4:</strong> Free exchanges on fit within 30 days.</li>
+              </ol>
+            </div>
+            <div class="col-lg-6">
+              <div class="card p-4 bg-white text-dark">
+                <h5 class="fw-bold mb-2">Packing highlights</h5>
+                <div class="grid grid-2">
+                  <div>
+                    <p class="small text-muted mb-1">Suits</p>
+                    <p class="mb-0">2-3 stretch suits</p>
+                  </div>
+                  <div>
+                    <p class="small text-muted mb-1">Shirts</p>
+                    <p class="mb-0">8-10 wrinkle-resistant</p>
+                  </div>
+                  <div>
+                    <p class="small text-muted mb-1">Shoes</p>
+                    <p class="mb-0">2-3 pairs rotated</p>
+                  </div>
+                  <div>
+                    <p class="small text-muted mb-1">Layers</p>
+                    <p class="mb-0">Shell + thermal + sweater</p>
+                  </div>
+                </div>
+                <a class="btn btn-dark mt-3" href="gear.html">Shop gear next</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-4">
+      <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+          <h6 class="fw-bold text-white mb-1">2x2 Gear Outfitters</h6>
+          <p class="mb-0 small">Missionary and menswear outfitting. Utah-based. Family owned.</p>
+        </div>
+        <div class="d-flex gap-3">
+          <a href="gear.html" class="text-decoration-none">Gear</a>
+          <a href="apparel.html" class="text-decoration-none">Menswear</a>
+          <a href="contact.html" class="text-decoration-none">Contact</a>
+        </div>
+        <div class="small">Chat with us for sizing help anytime.</div>
+      </div>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>

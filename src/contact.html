@@ -1,167 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Contact & Fittings | 2x2 Gear</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Book fittings, ask sizing questions, or visit 2x2 Gear Outfitters.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-h+y3Zj8L1/1PPR8VXIt+k9Vc03S8ZQ1Sgrt2+VfW8pYYdpqPjKc0sTf7zA5TNKvp8QI70oIZFv1F2iIrGqik0w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
-<body>
-  <header class="py-3 bg-white shadow-sm sticky-top">
-    <nav class="navbar navbar-expand-lg container">
-      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-uppercase" href="index.html">
-        <img src="./images/2by2-logo.png" alt="2x2 Gear Outfitters logo" class="brand-logo">
-        <span class="visually-hidden">2x2 Gear Outfitters</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mainNav">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
-          <li class="nav-item"><a class="nav-link" href="apparel.html">Menswear</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero py-5 py-lg-6">
-      <div class="container">
-        <div class="row align-items-center g-4">
-          <div class="col-lg-6">
-            <div class="pill mb-3"><i class="fa-solid fa-calendar-check"></i> Same-week fittings available</div>
-            <h1 class="display-4 fw-bold mb-3">Let's plan your outfitting.</h1>
-            <p class="lead text-light opacity-75 mb-4">Reach out with mission details, sizing questions, or to reserve a fitting. We respond within one business day.</p>
-            <div class="d-flex flex-wrap gap-3">
-              <a class="btn btn-primary btn-lg" href="#form">Book now</a>
-              <a class="btn btn-outline-light btn-lg" href="#visit">See store info</a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card card-hover overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1521336575822-6da63fb45455?auto=format&fit=crop&w=1200&q=80" alt="Retail storefront with suits" class="w-100">
-            </div>
-          </div>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact | 2x2 Gear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Reach the 2x2 Gear team with questions about sizing, orders, shipping, or mission prep."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-h+y3Zj8L1/1PPR8VXIt+k9Vc03S8ZQ1Sgrt2+VfW8pYYdpqPjKc0sTf7zA5TNKvp8QI70oIZFv1F2iIrGqik0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
+  <body>
+    <header class="py-3 bg-white shadow-sm sticky-top">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-uppercase" href="index.html">
+          <img src="./images/2by2-logo.png" alt="2x2 Gear Outfitters logo" class="brand-logo" />
+          <span class="visually-hidden">2x2 Gear Outfitters</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
+            <li class="nav-item"><a class="nav-link" href="apparel.html">Menswear</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          </ul>
         </div>
-      </div>
-    </section>
+      </nav>
+    </header>
 
-    <section class="py-5" id="visit">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-lg-6">
-            <div class="contact-card h-100">
-              <h3 class="mb-3">Visit our outfitting studio</h3>
-              <p class="mb-2"><i class="fa-solid fa-location-dot text-gold me-2"></i>123 Mission Lane, Provo, UT</p>
-              <p class="mb-2"><i class="fa-solid fa-phone text-gold me-2"></i><a href="tel:8015551212" class="text-white text-decoration-none">(801) 555-1212</a></p>
-              <p class="mb-3"><i class="fa-solid fa-envelope text-gold me-2"></i><a href="mailto:hello@2x2gear.com" class="text-white text-decoration-none">hello@2x2gear.com</a></p>
+    <main>
+      <section class="hero py-5 py-lg-6">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+              <div class="pill mb-3">
+                <i class="fa-solid fa-envelope-open-text"></i> We respond within one business day
+              </div>
+              <h1 class="display-4 fw-bold mb-3">Questions about sizing, shipping, or gear?</h1>
+              <p class="lead text-light opacity-75 mb-4">
+                Send us the details and we'll recommend the right products, check inventory, or update your order. No
+                appointments needed -- just reach out.
+              </p>
               <div class="d-flex flex-wrap gap-3">
-                <div>
-                  <p class="mb-1 fw-bold">Hours</p>
-                  <p class="mb-0 small">Mon–Sat: 10am–7pm<br>Closed Sunday</p>
-                </div>
-                <div>
-                  <p class="mb-1 fw-bold">Services</p>
-                  <p class="mb-0 small">Fittings, tailoring, mission kit consults</p>
-                </div>
+                <a class="btn btn-primary btn-lg" href="#form">Send a message</a>
+                <a class="btn btn-outline-light btn-lg" href="#visit">Store info</a>
               </div>
-              <a class="btn btn-light mt-3" href="#form">Book a time</a>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card p-3 h-100">
-              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Map placeholder" class="w-100 rounded">
-              <p class="text-muted small mt-2 mb-0">Located near BYU campus with easy parking.</p>
+            <div class="col-lg-6">
+              <div class="card card-hover overflow-hidden">
+                <img src="./images/contact/missionaries/lds-6.jpg" alt="Missionaries smiling with gear" class="w-100" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="py-5 bg-sand" id="form">
-      <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-5">
-            <div class="divider mb-2"></div>
-            <h2 class="section-title mb-2">Book a fitting or ask a question</h2>
-            <p class="text-muted">Share mission destination, dates, and what you need. We'll confirm with available times.</p>
-            <ul class="list-unstyled text-muted small">
-              <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Virtual or in-person fittings</li>
-              <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Climate-specific recommendations</li>
-              <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Tailoring timelines and pricing</li>
-            </ul>
-          </div>
-          <div class="col-lg-7">
-            <form class="card p-4 needs-validation" novalidate>
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label for="name" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="name" required aria-required="true">
-                  <div class="invalid-feedback">Please enter your name.</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" required aria-required="true">
-                  <div class="invalid-feedback">Please provide a valid email.</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="phone" class="form-label">Phone</label>
-                  <input type="tel" class="form-control" id="phone" required aria-required="true">
-                  <div class="invalid-feedback">Please add a phone number.</div>
-                </div>
-                <div class="col-md-6">
-                  <label for="service" class="form-label">Service</label>
-                  <select class="form-select" id="service" required aria-required="true">
-                    <option value="">Choose one</option>
-                    <option>Mission outfitting</option>
-                    <option>Menswear tailoring</option>
-                    <option>Virtual consult</option>
-                    <option>General question</option>
-                  </select>
-                  <div class="invalid-feedback">Select a service.</div>
-                </div>
-                <div class="col-12">
-                  <label for="details" class="form-label">Mission details or questions</label>
-                  <textarea id="details" class="form-control" rows="4" required aria-required="true"></textarea>
-                  <div class="invalid-feedback">Share a few details so we can prep.</div>
-                </div>
-                <div class="col-12 d-flex justify-content-between align-items-center">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="updates">
-                    <label class="form-check-label" for="updates">Email me mission prep tips</label>
+      <section class="py-5" id="visit">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="contact-card h-100">
+                <h3 class="mb-3">Reach our outfitting team</h3>
+                <p class="mb-2"><i class="fa-solid fa-location-dot text-gold me-2"></i>123 Mission Lane, Provo, UT</p>
+                <p class="mb-2">
+                  <i class="fa-solid fa-phone text-gold me-2"></i
+                  ><a href="tel:8015551212" class="text-white text-decoration-none">(801) 555-1212</a>
+                </p>
+                <p class="mb-3">
+                  <i class="fa-solid fa-envelope text-gold me-2"></i
+                  ><a href="mailto:hello@2x2gear.com" class="text-white text-decoration-none">hello@2x2gear.com</a>
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                  <div>
+                    <p class="mb-1 fw-bold">Hours</p>
+                    <p class="mb-0 small">Mon-Sat: 10am-7pm<br />Closed Sunday</p>
                   </div>
-                  <button class="btn btn-primary" type="submit">Send</button>
+                  <div>
+                    <p class="mb-1 fw-bold">We can help with</p>
+                    <p class="mb-0 small">Sizing advice, order status, climate-specific picks</p>
+                  </div>
                 </div>
+                <a class="btn btn-light mt-3" href="#form">Ask a question</a>
               </div>
-            </form>
+            </div>
+            <div class="col-lg-6">
+              <div class="card p-3 h-100">
+                <img
+                  src="./images/contact/missionaries/lds-5.jpg"
+                  alt="Missionaries walking together"
+                  class="w-100 rounded"
+                />
+                <p class="text-muted small mt-2 mb-0">Photos are for inspiration only; these aren't items for sale.</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="footer py-4">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
-      <div>
-        <h6 class="fw-bold text-white mb-1">2x2 Gear Outfitters</h6>
-        <p class="mb-0 small">Missionary and menswear outfitting. Utah-based. Family owned.</p>
-      </div>
-      <div class="d-flex gap-3">
-        <a href="gear.html" class="text-decoration-none">Gear</a>
-        <a href="apparel.html" class="text-decoration-none">Menswear</a>
-        <a href="contact.html" class="text-decoration-none">Contact</a>
-      </div>
-      <div class="small">We respond within 1 business day.</div>
-    </div>
-  </footer>
+      <section class="py-5 bg-sand" id="reviews">
+        <div class="container">
+          <div class="text-center mb-4">
+            <div class="divider mb-2 mx-auto"></div>
+            <h2 class="section-title">Public reviews</h2>
+            <p class="text-muted mb-0">Real families and missionaries sharing their experience with 2x2 Gear.</p>
+          </div>
+          <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card card-hover p-4 mx-auto" style="max-width: 760px">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img
+                      src="./images/contact/headshots/headshot-2.jpg"
+                      alt="Customer headshot"
+                      class="rounded-circle"
+                      width="64"
+                      height="64"
+                    />
+                    <div>
+                      <h6 class="mb-0 fw-bold">Kristen P.</h6>
+                      <small class="text-muted">Utah - 4.9 / 5</small>
+                    </div>
+                  </div>
+                  <p class="mb-0">
+                    "They walked us through sizing and shipped everything in time for the MTC. Easy exchanges, too."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card card-hover p-4 mx-auto" style="max-width: 760px">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img
+                      src="./images/contact/headshots/headshot-6.jpg"
+                      alt="Customer headshot"
+                      class="rounded-circle"
+                      width="64"
+                      height="64"
+                    />
+                    <div>
+                      <h6 class="mb-0 fw-bold">Elder S.</h6>
+                      <small class="text-muted">Peru-bound - 5.0 / 5</small>
+                    </div>
+                  </div>
+                  <p class="mb-0">
+                    "Shoes broke in fast and the breathable shirts were clutch for humidity. Customer support was quick
+                    to reply."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card card-hover p-4 mx-auto" style="max-width: 760px">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img
+                      src="./images/contact/headshots/headshot-7.jpg"
+                      alt="Customer headshot"
+                      class="rounded-circle"
+                      width="64"
+                      height="64"
+                    />
+                    <div>
+                      <h6 class="mb-0 fw-bold">Daniel A.</h6>
+                      <small class="text-muted">Arizona - 4.8 / 5</small>
+                    </div>
+                  </div>
+                  <p class="mb-0">
+                    "We had questions about socks and shoes for high miles. The team answered same day and the order
+                    arrived fast."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card card-hover p-4 mx-auto" style="max-width: 760px">
+                  <div class="d-flex align-items-center gap-3 mb-3">
+                    <img
+                      src="./images/contact/headshots/headshot-3.jpg"
+                      alt="Customer headshot"
+                      class="rounded-circle"
+                      width="64"
+                      height="64"
+                    />
+                    <div>
+                      <h6 class="mb-0 fw-bold">Lena R.</h6>
+                      <small class="text-muted">Idaho - 4.9 / 5</small>
+                    </div>
+                  </div>
+                  <p class="mb-0">
+                    "Helpful climate guidance and they checked inventory before we purchased. Great experience overall."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+      <section class="py-5" id="form">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <div class="divider mb-2"></div>
+              <h2 class="section-title mb-2">Send us a question</h2>
+              <p class="text-muted">
+                Share mission destination, dates, sizing info, or an order number. We'll reply with tailored product
+                picks or updates.
+              </p>
+              <ul class="list-unstyled text-muted small">
+                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Sizing and fit help</li>
+                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Order status or shipping</li>
+                <li class="mb-1"><i class="fa-solid fa-check text-gold me-2"></i>Climate-specific recommendations</li>
+              </ul>
+              <div class="d-flex gap-3 mt-3">
+                <img
+                  src="./images/contact/missionaries/lds-7.jpg"
+                  alt="Missionaries together"
+                  class="rounded"
+                  width="140"
+                />
+                <img
+                  src="./images/contact/missionaries/lds-4.jpg"
+                  alt="Missionary portrait"
+                  class="rounded"
+                  width="140"
+                />
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <form class="card p-4 needs-validation" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" required aria-required="true" />
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required aria-required="true" />
+                    <div class="invalid-feedback">Please provide a valid email.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" required aria-required="true" />
+                    <div class="invalid-feedback">Please add a phone number.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="topic" class="form-label">Topic</label>
+                    <select class="form-select" id="topic" required aria-required="true">
+                      <option value="">Choose one</option>
+                      <option>Order status</option>
+                      <option>Sizing help</option>
+                      <option>Shipping question</option>
+                      <option>Product recommendation</option>
+                      <option>Other</option>
+                    </select>
+                    <div class="invalid-feedback">Select a topic.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="details" class="form-label">How can we help?</label>
+                    <textarea id="details" class="form-control" rows="4" required aria-required="true"></textarea>
+                    <div class="invalid-feedback">Share a few details so we can prep.</div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-between align-items-center">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="updates" />
+                      <label class="form-check-label" for="updates">Email me mission prep tips</label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-4">
+      <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+          <h6 class="fw-bold text-white mb-1">2x2 Gear Outfitters</h6>
+          <p class="mb-0 small">Missionary and menswear outfitting. Utah-based. Family owned.</p>
+        </div>
+        <div class="d-flex gap-3">
+          <a href="gear.html" class="text-decoration-none">Gear</a>
+          <a href="apparel.html" class="text-decoration-none">Menswear</a>
+          <a href="contact.html" class="text-decoration-none">Contact</a>
+        </div>
+        <div class="small">We respond within 1 business day.</div>
+      </div>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>
