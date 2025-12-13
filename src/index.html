@@ -1,28 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>2x2 Gear | Missionary & Menswear Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="Shop missionary outfitting and menswear essentials online. Prices, ratings, and fast shipping on suits, shirts, shoes, and mission gear."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-h+y3Zj8L1/1PPR8VXIt+k9Vc03S8ZQ1Sgrt2+VfW8pYYdpqPjKc0sTf7zA5TNKvp8QI70oIZFv1F2iIrGqik0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./stylesheets/main.scss" />
+  </head>
+  <body>
+    <header class="py-3 bg-white shadow-sm sticky-top">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-uppercase" href="index.html">
+          <img src="./images/2by2-logo.png" alt="2x2 Gear Outfitters logo" class="brand-logo" />
+          <span class="visually-hidden">2x2 Gear Outfitters</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gear.html">Gear</a></li>
+            <li class="nav-item"><a class="nav-link" href="apparel.html">Menswear</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-<head>
-  <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <meta name="description" content="TODO: Project 2 ...">
+    <main>
+      <section class="hero py-5 py-lg-6">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+              <div class="pill mb-3"><i class="fa-solid fa-compass"></i> Mission-ready fits & essentials</div>
+              <h1 class="display-4 fw-bold mb-3">Dress with purpose. Move with confidence.</h1>
+              <p class="lead text-light opacity-75 mb-4">
+                Shop missionary gear and menswear online with real prices, ratings, and quick shipping. Breathable
+                suits, rugged shoes, and every checklist item in one cart.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-primary btn-lg px-4" href="gear.html">Shop Gear</a>
+                <a class="btn btn-outline-light btn-lg px-4" href="apparel.html">Build Your Outfit</a>
+              </div>
+              <div class="mini-stats mt-4">
+                <div class="stat">
+                  <h4>1500+</h4>
+                  <p class="mb-0 small text-muted">Missionaries outfitted in the last 12 months</p>
+                </div>
+                <div class="stat">
+                  <h4>2-day</h4>
+                  <p class="mb-0 small text-muted">Shipping option on most items</p>
+                </div>
+                <div class="stat">
+                  <h4>4.9 / 5</h4>
+                  <p class="mb-0 small text-muted">Community-rated service experience</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card border-0 card-hover overflow-hidden">
+                <img
+                  src="./images/index/missionaries/lds-4.jpg"
+                  class="w-100"
+                  alt="Missionaries walking with bags and suits"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
+      <section class="py-5 bg-sand" id="highlights">
+        <div class="container">
+          <div class="row justify-content-between align-items-center g-4">
+            <div class="col-lg-5">
+              <div class="divider mb-3"></div>
+              <h2 class="section-title mb-3">Everything your call packet asks for -- organized.</h2>
+              <p class="lead text-muted">
+                From durable shoes to weatherproof outerwear, we curate by mission climate and timeline so you don't
+                have to guess.
+              </p>
+              <div class="d-flex flex-wrap gap-2 my-3">
+                <span class="badge badge-soft">Climate-specific kits</span>
+                <span class="badge badge-soft">Easy care fabrics</span>
+                <span class="badge badge-soft">Travel-ready</span>
+              </div>
+              <a class="btn btn-primary" href="gear.html">Browse Mission Kits</a>
+            </div>
+            <div class="col-lg-6">
+              <div class="grid grid-3">
+                <article class="card card-hover p-4">
+                  <div class="feature-icon mb-3"><i class="fa-solid fa-droplet"></i></div>
+                  <h5 class="fw-bold">Weather-ready layers</h5>
+                  <p class="text-muted mb-0">
+                    Breathable, water-resistant shells and thermals matched to your mission climate.
+                  </p>
+                </article>
+                <article class="card card-hover p-4">
+                  <div class="feature-icon mb-3"><i class="fa-solid fa-shoe-prints"></i></div>
+                  <h5 class="fw-bold">Break-in free footwear</h5>
+                  <p class="text-muted mb-0">Shock-absorbing soles and arch support designed for 15k daily steps.</p>
+                </article>
+                <article class="card card-hover p-4">
+                  <div class="feature-icon mb-3"><i class="fa-solid fa-shirt"></i></div>
+                  <h5 class="fw-bold">Smart-care fabrics</h5>
+                  <p class="text-muted mb-0">
+                    Wrinkle-resistant shirts and stretch suits that keep their shape on long days.
+                  </p>
+                </article>
+                <article class="card card-hover p-4">
+                  <div class="feature-icon mb-3"><i class="fa-solid fa-people-arrows"></i></div>
+                  <h5 class="fw-bold">Inclusive fits</h5>
+                  <p class="text-muted mb-0">Slim, athletic, and classic silhouettes with free exchanges.</p>
+                </article>
+                <article class="card card-hover p-4">
+                  <div class="feature-icon mb-3"><i class="fa-solid fa-briefcase"></i></div>
+                  <h5 class="fw-bold">Built-for-travel bags</h5>
+                  <p class="text-muted mb-0">
+                    Lightweight, padded, and rain-safe storage for scriptures, tech, and daily carry.
+                  </p>
+                </article>
+                <article class="card card-hover p-4">
+                  <div class="feature-icon mb-3"><i class="fa-solid fa-compass-drafting"></i></div>
+                  <h5 class="fw-bold">Personalized prep</h5>
+                  <p class="text-muted mb-0">Chat with our team for climate-specific advice before you buy.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+      <section class="py-5">
+        <div class="container">
+          <div class="d-flex justify-content-between flex-wrap align-items-center mb-4">
+            <div>
+              <div class="divider mb-2"></div>
+              <h2 class="section-title mb-1">Shop by category</h2>
+              <p class="text-muted mb-0">A clear path through gear, tailored for missionaries and everyday menswear.</p>
+            </div>
+            <a class="btn btn-outline-dark" href="gear.html">See all gear</a>
+          </div>
+          <div class="grid grid-4">
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/suits/suits-1.jpg" alt="Navy suit on hanger" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Suits & Blazers</h5>
+                <p class="text-muted small mb-2">Performance stretch fabrics, lined for breathability.</p>
+                <a href="apparel.html#suits" class="text-decoration-none fw-semibold"
+                  >Explore fits <i class="fa-solid fa-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/shirts/shirts-1.png" alt="White dress shirts" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Shirts</h5>
+                <p class="text-muted small mb-2">Wrinkle-resistant shirts with stretch collars.</p>
+                <a href="apparel.html#shirts" class="text-decoration-none fw-semibold"
+                  >Shop shirts <i class="fa-solid fa-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/backpacks/backpack-1.jpg" alt="Travel bag" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Bags & Protection</h5>
+                <p class="text-muted small mb-2">Weatherized packs, scripture protection, daily carry.</p>
+                <a href="gear.html#bags" class="text-decoration-none fw-semibold"
+                  >Find your pack <i class="fa-solid fa-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/socks/socks-2.png" alt="Mission socks" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Socks & Accessories</h5>
+                <p class="text-muted small mb-2">Anti-odor socks, belts, ties, and daily essentials.</p>
+                <a href="gear.html#accessories" class="text-decoration-none fw-semibold"
+                  >Browse accessories <i class="fa-solid fa-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <script type="module" src="./javascripts/main.js"></script>
-</body>
+      <section class="py-5 bg-gradient-navy text-white" id="checklist">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <h2 class="section-title mb-3">Mission prep checklist</h2>
+              <p class="opacity-75">A simplified list you can screenshot for online shopping.</p>
+              <ul class="list-unstyled lead">
+                <li class="mb-2">
+                  <i class="fa-regular fa-square-check text-gold me-2"></i> 2-3 washable suits (stretch preferred)
+                </li>
+                <li class="mb-2">
+                  <i class="fa-regular fa-square-check text-gold me-2"></i> 8-10 wrinkle-resistant shirts
+                </li>
+                <li class="mb-2">
+                  <i class="fa-regular fa-square-check text-gold me-2"></i> 2 pairs of mission-approved shoes + inserts
+                </li>
+                <li class="mb-2">
+                  <i class="fa-regular fa-square-check text-gold me-2"></i> 2 outer layers: rain shell + thermal
+                </li>
+                <li class="mb-2">
+                  <i class="fa-regular fa-square-check text-gold me-2"></i> Mission bag, scripture protection, tech
+                  pouch
+                </li>
+              </ul>
+              <a class="btn btn-outline-light mt-3" href="gear.html">Get my kit</a>
+            </div>
+            <div class="col-lg-7">
+              <div class="card p-4 bg-white text-dark">
+                <h5 class="fw-bold mb-3">Climate presets</h5>
+                <div class="grid grid-3">
+                  <div class="p-3 rounded border border-gold">
+                    <h6 class="fw-bold mb-1">Tropical</h6>
+                    <p class="text-muted small mb-2">Unlined jackets, moisture-wicking shirts, vented shoes.</p>
+                    <span class="badge bg-light text-dark">Mesh panels</span>
+                  </div>
+                  <div class="p-3 rounded border border-gold">
+                    <h6 class="fw-bold mb-1">Cold / Wet</h6>
+                    <p class="text-muted small mb-2">Storm shell, insulated liner, merino socks, waterproof leather.</p>
+                    <span class="badge bg-light text-dark">Seam sealed</span>
+                  </div>
+                  <div class="p-3 rounded border border-gold">
+                    <h6 class="fw-bold mb-1">Dry / High-mileage</h6>
+                    <p class="text-muted small mb-2">Cushioned insoles, breathable shirts, anti-odor layers.</p>
+                    <span class="badge bg-light text-dark">Anti-microbial</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="d-flex justify-content-between flex-wrap align-items-center mb-4">
+            <div>
+              <div class="divider mb-2"></div>
+              <h2 class="section-title mb-1">Featured deals</h2>
+              <p class="text-muted mb-0">Outfits and gear bundles with prices, ratings, and quick add-to-cart.</p>
+            </div>
+            <a class="btn btn-outline-dark" href="apparel.html">View all outfits</a>
+          </div>
+          <div class="grid grid-3">
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/suits/suits-3.png" alt="Model wearing navy suit" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Foundational Black</h5>
+                <p class="text-muted small mb-2">Stretch black suit, white shirt, clean design.</p>
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="fw-bold">$349 bundle</span>
+                  <span class="text-warning"><i class="fa-solid fa-star"></i> 4.8</span>
+                </div>
+                <a class="btn btn-primary w-100" href="#">Buy bundle</a>
+              </div>
+            </article>
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/suits/suits-4.png" alt="Gray suit and tie" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Travel Day Kit</h5>
+                <p class="text-muted small mb-2">Unstructured blazer, no-iron shirt, knit tie, rain-safe bag.</p>
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="fw-bold">$329 bundle</span>
+                  <span class="text-warning"><i class="fa-solid fa-star"></i> 4.7</span>
+                </div>
+                <a class="btn btn-primary w-100" href="#">Buy bundle</a>
+              </div>
+            </article>
+            <article class="card card-hover overflow-hidden">
+              <img src="./images/index/backpacks/backpack-2.jpg" alt="Backpack and accessories" class="w-100" />
+              <div class="p-3">
+                <h5 class="fw-bold mb-1">Cold Climate Layer</h5>
+                <p class="text-muted small mb-2">Insulated shell, waterproof boot, padded mission pack.</p>
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="fw-bold">$299 bundle</span>
+                  <span class="text-warning"><i class="fa-solid fa-star"></i> 4.6</span>
+                </div>
+                <a class="btn btn-primary w-100" href="#">Buy bundle</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-sand">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5">
+              <div class="divider mb-2"></div>
+              <h2 class="section-title mb-3">Families trust our fittings.</h2>
+              <p class="text-muted">
+                We guide you through every item, size, and climate detail, then handle exchanges quickly if something
+                doesn't fit.
+              </p>
+              <a class="btn btn-primary mt-2" href="contact.html">Send a question</a>
+            </div>
+            <div class="col-lg-7">
+              <div class="grid grid-3">
+                <div class="testimonial">
+                  <p class="mb-2">
+                    "They had every single item on our list. Checkout was simple and shipping was quick."
+                  </p>
+                  <span class="fw-bold">Kristen, UT</span>
+                </div>
+                <div class="testimonial">
+                  <p class="mb-2">"Great shoes that didn't need breaking in. My son's feet thanked me week one."</p>
+                  <span class="fw-bold">Daniel, AZ</span>
+                </div>
+                <div class="testimonial">
+                  <p class="mb-2">
+                    "Climate guidance was spot on for Peru. Lightweight layers and breathable fabrics."
+                  </p>
+                  <span class="fw-bold">Lena, ID</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-4">
+      <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+          <h6 class="fw-bold text-white mb-1">2x2 Gear Outfitters</h6>
+          <p class="mb-0 small">Missionary and menswear outfitting. Utah-based. Family owned.</p>
+        </div>
+        <div class="d-flex gap-3">
+          <a href="gear.html" class="text-decoration-none">Gear</a>
+          <a href="apparel.html" class="text-decoration-none">Menswear</a>
+          <a href="contact.html" class="text-decoration-none">Contact</a>
+        </div>
+        <div class="small">Built with accessibility and responsive design in mind.</div>
+      </div>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>

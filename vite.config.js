@@ -34,6 +34,7 @@ export default defineConfig({
     {
       ...eslint({
         include: ["src/**/*.js"],
+        overrideConfigFile: path.resolve(__dirname, ".eslintrc.json"),
       }),
       enforce: "pre",
       apply: "build",
